@@ -1,0 +1,87 @@
+/* Bosh sahifa uchun havorang fon */
+body {
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar va tugmalar */
+  .navbar-brand img {
+    width: 120px;
+  }
+  
+  .navbar .nav-link {
+    color: #555 !important;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #007bff !important;
+  }
+  
+  .main-content h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .main-content p {
+    color: #6c757d;
+  }
+  
+  /* Qidiruv qutisi */
+  .search-box {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 1rem;
+  }
+  
+  .search-box .file-translate-btn {
+    border: none;
+    color: #007bff;
+    background: #eef4ff;
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    margin-right: 5px;
+  }
+  
+  .search-box .search-btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-size: 1.2rem;
+  }
+  
+  /* Funksiyalar uchun ikonka va matn */
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #007bff;
+  }
+  
+  .row p {
+    color: #343a40;
+    font-weight: 500;
+  }
+  
+  /* Faylni tarjima qilish tugmasi */
+  .file-translate-btn:hover {
+    background: #dce6ff;
+  }
+  
